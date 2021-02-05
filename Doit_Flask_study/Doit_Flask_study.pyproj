@@ -41,6 +41,12 @@
     <Folder Include="Doit_Flask_study\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Doit_Flask_study\.env">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Doit_Flask_study\.flaskenv">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="requirements.txt" />
     <Content Include="Doit_Flask_study\static\content\bootstrap.css" />
     <Content Include="Doit_Flask_study\static\content\bootstrap.min.css" />
