@@ -340,3 +340,4 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 /Doit_Flask_study/Doit_Flask_study/.env
+Doit_Flask_study/.env

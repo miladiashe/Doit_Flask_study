@@ -18,6 +18,8 @@
     <Name>Doit_Flask_study</Name>
     <RootNamespace>Doit_Flask_study</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <Environment>
+    </Environment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,11 +43,12 @@
     <Folder Include="Doit_Flask_study\templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Doit_Flask_study\.env">
+    <Content Include=".env">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="Doit_Flask_study\.flaskenv">
+    <Content Include=".flaskenv">
       <SubType>Code</SubType>
+      <Publish>True</Publish>
     </Content>
     <Content Include="requirements.txt" />
     <Content Include="Doit_Flask_study\static\content\bootstrap.css" />
