@@ -4,7 +4,7 @@ Routes and views for the flask application.
 
 from datetime import datetime
 from flask import render_template
-from Doit_Flask_study import app
+# from Doit_Flask_study import app
 
 @app.route('/')
 @app.route('/home')
