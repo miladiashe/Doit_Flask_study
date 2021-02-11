@@ -35,9 +35,10 @@ from Doit_Flask_study import app
 #        year=datetime.now().year,
 #        message='Your application description page.'
 #    )
+from flask import Blueprint
 
+bp = Blueprint('main', __name__, url_prefix='/')
 
-
-@app.route('/')
+@bp.route('/')
 def hello_pybo():
     return 'Hello, Pybo!'
