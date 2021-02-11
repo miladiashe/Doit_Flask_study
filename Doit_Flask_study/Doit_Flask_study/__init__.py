@@ -3,6 +3,13 @@ The flask application package.
 """
 
 from flask import Flask
-app = Flask(__name__)
 
-import Doit_Flask_study.views
+def create_app():
+    app = Flask(__name__)
+
+    from .views import main_views
+    app.register_blueprint(main_views.bp)
+
+    return app
+
+# import Doit_Flask_study.views
