@@ -3,7 +3,7 @@ This script runs the Doit_Flask_study application using a development server.
 """
 
 from os import environ
-# from Doit_Flask_study import app
+from Doit_Flask_study import app
 
 if __name__ == '__main__':
     HOST = environ.get('SERVER_HOST', 'localhost')
